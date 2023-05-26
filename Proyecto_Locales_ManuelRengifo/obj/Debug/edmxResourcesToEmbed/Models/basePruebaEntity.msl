@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BasePruebaBDModelStoreContainer" CdmEntityContainer="BasePruebaBDEntities">
+    <EntitySetMapping Name="Locales">
+      <EntityTypeMapping TypeName="BasePruebaBDModel.Locales">
+        <MappingFragment StoreEntitySet="Locales">
+          <ScalarProperty Name="IdLocal" ColumnName="IdLocal" />
+          <ScalarProperty Name="NombreLocal" ColumnName="NombreLocal" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
